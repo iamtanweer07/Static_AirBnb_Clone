@@ -1,0 +1,820 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+.header
+{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/banner11.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+
+}
+.logo
+{
+  width: 140px;
+  cursor: pointer;
+}
+.nav_links li
+{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+.nav_links li a
+{
+  text-decoration: none;
+  color: #fff;
+}
+.register_btn
+{
+ background: #fff;
+ color: #000;
+ padding: 8px 20px;
+ border-radius: 20px;
+ text-decoration: none;
+ font-size: 14px;
+}
+.container
+{
+  padding: 0 7%;
+}
+.header h1
+{
+ font-size: 4vw;
+ font-weight: 500;
+ color: #ffff;
+ text-align: center;
+ padding-top: 22%;
+}
+.search_boxes
+{
+ background: #fff;
+ width: 70%;
+ margin: 30px auto;
+ padding: 6px 10px 6px 30px;
+ border-radius: 50px;
+}
+.search_boxes form
+{
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.search_boxes form input
+{
+ display: block;
+ border: 0;
+ outline: 0;
+ background: transparent;
+
+}
+.search_boxes form button
+{
+  background: #ff5361;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+}
+.search_boxes form button img{
+  width: 15px;
+  margin-top: 7px;
+}
+.loaction_inputs
+{
+ flex: 1;
+}
+.search_boxes form label
+{
+ font-weight: 600;
+}
+/* -----------------nav end------------------ */
+/*------------exclusive part------------------ */
+
+.sub_titles
+{
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  color: #333;
+}
+.exclusives
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+.exclusives div img
+{
+  width: 100%;
+  border-radius: 10px;
+}
+.exclusives div 
+{
+ position: relative;
+}
+.exclusives div span
+{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ text-align: center;
+ color: #ffff;
+}
+/* -----------------trending places-------------------*/
+.trending_section
+{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ grid-gap: 30px;
+ margin-bottom: 30px;
+}
+.trending_section div img
+{
+ width: 100%;
+ border-radius: 10px;
+}
+.trending_section h3 
+{
+  font-weight: 600;
+  margin-top: 10px;
+}
+/* -------------call to action--------------- */
+
+.calltoAction
+{
+  margin: 80px 0;
+  background-image: linear-gradient(to right, #3f2321, transparent),url(/images/banner-2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: #fff;
+}
+.calltoAction h3 
+{
+  font-size: 4vw;
+  line-height: 5.3vw;
+  font-weight: 500;
+}
+.calltoAction p
+{
+  font-size: 18px;
+  margin: 10px 0;
+}
+.calltoAction_btn
+{
+  background: #ff5361;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+/* ----------------Travellers Stories--------------- */
+.travellers_stories
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 30px;
+}
+.travellers_stories div img
+{
+width: 100%;
+border-radius: 10px;
+}
+.travellers_stories div
+{
+  position: relative;
+  text-align: center;
+}
+.travellers_stories p
+{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 26px;
+}
+.start_btn
+{
+  text-decoration: none;
+  background: #ff5361;
+  color: #fff;
+  width: 80%;
+  max-width: 350px;
+  display: block;
+  text-align: center;
+  margin: 60px auto;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.about_msg
+{
+  text-align: center;
+  margin: 80px 0;
+  color: #333;
+  font-size: 17px;
+}
+.about_msg h2
+{
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+/* ------------------footer----------------- */
+.footer
+{
+ margin: 80px 0 10px;
+ text-align: center;
+}
+.footer a
+{
+  text-decoration: none;
+  color: #999;
+  font-size: 22px;
+  margin: 0 10px;
+}
+.footer hr
+{
+  background: #999;
+  height: 1px;
+  width: 100%;
+  border: 0;
+  margin: 20px 0;
+}
+.footer p
+{
+  padding-bottom: 15px;
+}
+.active
+{
+  position: relative;
+}
+.active::after
+{
+  content: '';
+  background: #fff;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -12px;
+  border-radius: 2px;
+}
+nav .fa-bars{
+  display: none;
+}
+
+/* --------------listing page-------------- */
+
+.nav_bar_red
+{
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.nav_bar_red .nav_links li a
+{
+  color: #000;
+}
+.nav_bar_red .register_btn
+{
+  background: #ff5361;
+  color: #fff;
+}
+.nav_bar_red .fa-bars{
+  color: #000;
+}
+.nav_bar_red .active::after
+{
+  background: #ff5361;
+}
+.list_container
+{
+margin-top: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.left_col
+{
+  flex-basis: 70%;
+}
+.right_col
+{
+ flex-basis: 25%;
+}
+.left_col h1
+{
+ color: #333;
+ font-weight: 600;
+ margin-bottom: 30px;
+}
+.house
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  border-radius: 1px solid #ccc;
+}
+.house_img
+{
+  flex-basis: 40%;
+}
+.house_info
+{
+  flex-basis: 58%;
+  color: #555;
+}
+.house_img img
+{
+  width: 100%;
+  border-radius: 12px;
+}
+.house_info h3
+{
+  font-weight: 600;
+  color: #333;
+  font-size: 22px;
+  margin: 4px 0;
+}
+.house_info i
+{
+  color: #ff5361;
+  font-size: 18px;
+  margin: 10px 1px;
+}
+.house_price
+{
+  text-align: right;
+}
+.house_price h4
+{
+  font-size: 20px;
+}
+.house_price h4 span
+{
+  font-size: 16px;
+  font-weight: 500;
+}
+.side_bar
+{
+  border: 1px solid #999;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+.side_bar h2
+{
+  font-weight: 500;
+}
+.side_bar h3
+{
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.filter
+{
+  display: flex;
+  align-items: center;
+  color: #555;
+  margin-bottom: 10px;
+}
+.filter p
+{
+  flex: 1;
+}
+.filter input
+{
+ margin-right: 15px;
+ cursor: pointer;
+
+}
+.sidebar_link
+{
+  text-align: right;
+  margin: 20px 0;
+}
+.sidebar_link a
+{
+  text-decoration: none;
+}
+.pagination
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.pagination img
+{
+  width: 15px;
+  margin: 10px 20px;
+}
+.right_arrow
+{
+  transform: rotate(180deg);
+}
+.pagination span
+{
+  margin: 10px 8px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pagination .current_page
+{
+  background: #333;
+  color: #fff;
+}
+
+/* --------------house details page-------------- */
+
+.house_details
+{
+ padding: 0 12px;
+}
+.house_title
+{
+  margin-top: 50px;
+}
+.house_title h1
+{
+  font-weight: 600;
+}
+.house_title .row
+{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ margin: 10px 0;
+}
+.house_title span
+{
+  margin: 0 20px;
+}
+.house_title i
+{
+  color: #ff5361;
+  font-size: 14px;
+}
+.house_gallery
+{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: 'first first. .''first first. .';
+  margin: 20px 0;
+
+}
+.house_gallery div img
+{
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.gallery_pic_1
+{
+  grid-area: first;
+}
+.small_details h2
+{
+  font-weight: 500;
+}
+.small_details h4
+{
+  text-align: right;
+  font-size: 22px;
+}
+.line
+{
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0 50px;
+}
+.check_form
+{
+  margin: 30px 0;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 50px;
+}
+.check_form label
+{
+  display: block;
+}
+.check_form div
+{
+  padding: 20px;
+}
+.check_form input
+{
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+.check_form button
+{
+  background: #ff5361;
+  border: 0;
+  outline: none;
+  color: #fff;
+  padding: 18px;
+  width: 350px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.guest_field
+{
+  flex: 1;
+}
+.details_list
+{
+  list-style: none;
+  margin: 50px 0;
+}
+.details_list li
+{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #555;
+  position: relative;
+}
+
+.details_list li span
+{
+ display: block;
+ font-weight: 400;
+ font-size: 16px;
+}
+.details_list li i
+{
+ position: absolute;
+ top: 5px;
+ left: -40px;
+}
+.home_description
+{
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+.map iframe
+{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.map h3
+{
+ font-size: 26px;
+ font-weight: 500;
+ margin-bottom: 30px;
+}
+.map b
+{
+  display: block;
+  margin-bottom: 16px;
+}
+.host
+{
+  display: flex;
+  align-items: center;
+}
+.host img
+{
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.host h2
+{
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.host i
+{
+  color: #ff5361;
+}
+.contact_host
+{
+  display: inline-block;
+  margin: 40px 0 40px 120px;
+  text-decoration: none;
+  color: #555;
+  padding: 15px 50px;
+  border: 1px solid #ff5361;
+  border-radius: 8px;
+
+}
+/* --------------media queries frontPage----------- */
+
+@media only screen and (max-width: 700px) 
+{
+  .logo{
+      position: fixed;
+      top: 4%;
+      left: 7%;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 7% 0;
+    background: #000;
+    text-align: right;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  nav .nav_links li{
+   margin: 10px 0;
+   display: block;
+  }
+  .register_btn{
+    margin: 15px;
+    display: inline-block;
+  }
+  nav .fa-bars{
+    position: fixed;
+    top: 4%;
+    right: 7%;
+    display: block;
+    color: rgb(244, 7, 7);
+    font-size: 28px;
+  }
+  .active::after
+{
+  left: -40px;
+  transform: translate(0, 50%);
+  bottom: 50%;
+}
+.hidemenu{
+  max-height: 300px;
+}
+.header h1{
+  padding-top: 200px;
+  font-size: 7vw;
+}
+.search_boxes{
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px 10px 30px ;
+  border-radius: 5px;
+  position: relative;
+}
+.search_boxes form{
+  display: block;
+}
+.search_boxes form input{
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.search_boxes form button{
+ position: absolute;
+ bottom: 0;
+
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.sub_titles{
+  font-size: 6vw;
+
+}
+.calltoAction{
+  padding: 15% 5%;
+}
+.calltoAction h3{
+  font-size: 7vw;
+  line-height: 8vw;
+}
+.calltoAction p{
+  font-size: 14px;
+}
+.calltoAction_btn{
+  padding: 6px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.travellers_stories{
+  font-size: 22px;
+}
+.about_msg{
+  font-size: 15px;
+}
+}
+
+/* ---------media queries listing page----------- */
+
+@media only screen and (max-width: 700px) 
+{
+  .list_container{
+    margin-top: 150px;
+  }
+  .left_col, .right_col, .house_img, .house_info{
+    flex-basis: 100%;
+  }
+  .left_col h1{
+    font-size: 22px;
+  }
+  .house_info h3{
+    font-size: 18px;
+  }
+  .house_info i{
+    font-size: 16px;
+  }
+  .pagination span{
+    margin: 10px 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+}
+/* --------------media queries---------------- */
+
+@media only screen and (max-width: 700px) 
+{
+  .house_details{
+    margin-top: 150px;
+  }
+  .row p{
+    margin-top: 10px;
+  }
+  .house_gallery{
+    grid-template-areas: 'first first' '. .' '. .';
+  }
+  .small_details h2{
+    font-size: 20px;
+    margin-top: 24px;
+  }
+  .small_details h4{
+    text-align: left;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  .check_form{
+    padding: 10px 30px;
+
+  }
+  .check_form div{
+    padding: 20px 0;
+    width: 100%;
+  }
+  .check_form input{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  .check_form button{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  .host{
+    display: block;
+    line-height: 28px;
+
+  }
+  .contact_host{
+    margin: 40px 0;
+  }
+  
+}
